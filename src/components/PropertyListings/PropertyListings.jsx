@@ -4,9 +4,9 @@ import axios from "axios";
 import { Grid } from "@material-ui/core";
 
 import Listing from "./Listing/Listing";
-import { setPropertyData } from "../actions";
-import { useAppState } from "../hooks";
-import { getListings, getSavedListings } from "../selectors";
+import { setPropertyData } from "Src/actions";
+import { useAppState } from "Src/hooks";
+import { getListings, getSavedListings } from "Src/selectors";
 
 const fetchPropertyListings = async () =>
   axios.get("https://api.simplyrets.com/properties", {

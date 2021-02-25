@@ -2,9 +2,8 @@ import React, { createContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-import Header from "./components/Header/Header";
-import PropertyListings from "./PropertyListings/PropertyListings";
-import SavedListings from "./PropertyListings/SavedListings";
+import Header from "Components/Header/Header";
+import PropertyListings from "Components/PropertyListings/PropertyListings";
 
 import "./App.scss";
 

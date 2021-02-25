@@ -1,12 +1,12 @@
 import React, { useMemo } from "react";
 import NumberFormat from "react-number-format";
 import Address from "./Address/Address";
-import heart from "../../images/heart.svg";
-import heartFull from "../../images/heart-full.svg";
+import heart from "Images/heart.svg";
+import heartFull from "Images/heart-full.svg";
 import "./Listing.scss";
-import { useAppState } from "../../hooks";
-import { toggleLikedListing } from "../../actions";
-import { getListing, getListingIsLiked } from "../../selectors";
+import { useAppState } from "Src/hooks";
+import { toggleLikedListing } from "Src/actions";
+import { getListing, getListingIsLiked } from "Src/selectors";
 
 const findBathroom = (full, half) => full + half / 2;
 
