@@ -1,3 +1,4 @@
+// Color Definitions
 $primary-black: #2D2D2D;
 $grey-1: #424242;
 $grey-2: #979797;
@@ -5,6 +6,21 @@ $grey-3: #C8C8C8;
 $grey-4: #F4F4F4;
 $primary-white: #FFF;
 
+// Brand Colors
 $brand-primary: #F05540;
 
+// Backgrounds
 $bg-grey: $grey-4;
+$bg-white: $primary-white;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 600px;
+
+// Small tablets (portrait view)
+$screen-md-min: 960px;
+
+// Tablets and small desktops
+$screen-lg-min: 1280px;
+
+// Large tablets and desktops
+$screen-xl-min: 1920px;

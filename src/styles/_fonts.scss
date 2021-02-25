@@ -1,11 +1,17 @@
+@import './mixins';
+
 .open-sans {
   font-family: 'Open Sans', sans-serif;
 }
 
 .headline-1 {
   @extend .open-sans;
-  font-size: 28px;
+  font-size: 14px;
   line-height: 40px;
+
+  @include sm {
+    font-size: 28px;
+  }
 }
 
 .headline-2 {

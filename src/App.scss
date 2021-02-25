@@ -5,10 +5,14 @@ html, body {
 }
 
 .side-app {
-  background: $primary-white;
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  background: $primary-white;
 
   .content {
     padding: 40px 60px;
+    flex-grow: 1;
+    overflow-y: auto;
   }
 }

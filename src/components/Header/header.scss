@@ -1,9 +1,14 @@
-@import 'src/styles/variables.scss';
+@import 'src/styles/variables';
 @import 'src/styles/fonts';
+@import 'src/styles/mixins';
 
 .Header {
   background: $bg-grey;
-  padding: 25px 60px;
+  padding: 15px 60px 20px 60px;
+
+  @include sm {
+    padding-bottom: 30px;
+  }
 
   ul li {
     @extend .headline-1;
