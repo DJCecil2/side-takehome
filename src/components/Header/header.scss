@@ -1,0 +1,33 @@
+@import 'src/styles/variables.scss';
+@import 'src/styles/fonts';
+
+.Header {
+  background: $bg-grey;
+  padding: 25px 60px;
+
+  ul li {
+    @extend .headline-1;
+    display: inline-block;
+    margin-right: 40px;
+
+    a {
+      color: $grey-1;
+      padding-bottom: 6px;
+      border-bottom: 3px solid $grey-3;
+
+      &.active {
+        color: $primary-black;
+        font-weight: 600;
+        border-bottom-color: $brand-primary;
+      }
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.Header li {
+  display: inline-block;
+}

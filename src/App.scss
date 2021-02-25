@@ -1,0 +1,14 @@
+@import 'src/styles/variables';
+
+html, body {
+  background: $primary-white;
+}
+
+.side-app {
+  background: $primary-white;
+  height: 100%;
+
+  .content {
+    padding: 40px 60px;
+  }
+}

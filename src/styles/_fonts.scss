@@ -1,0 +1,33 @@
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.headline-1 {
+  @extend .open-sans;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.headline-2 {
+  @extend .open-sans;
+  font-size: 26px;
+  line-height: 24px;
+}
+
+.headline-3 {
+  @extend .open-sans;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.body-1 {
+  @extend .open-sans;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.body-2 {
+  @extend .open-sans;
+  font-size: 14px;
+  line-height: 32px;
+}

@@ -1,0 +1,30 @@
+@import 'src/styles/variables';
+@import 'src/styles/fonts';
+
+.Listing {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .summary {
+    @extend .headline-3;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    @extend .headline-2;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .listDate {
+    @extend .body-2;
+    color: $grey-2;
+  }
+}
